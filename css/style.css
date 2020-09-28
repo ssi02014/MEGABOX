@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+
+/* LayOut */
+#header{ width: 100%; height: 63px; border-bottom: 1px solid #c6c6c6;}
+
+/* 가운데 영역 */
+.container {position: relative; width: 1280px; margin: 0 auto; background-color: rgba(0,0,0,0);}
+
+/* row 영역 */
+.row { padding: 0 24px;}
+
+/* header */
+.header h1 { float: left; }
+.header h1 em {
+    padding: 15px 8px 3px 0;
+    display: inline-block;
+}
+.header h1 em img { width: 155px; }
+.header h1 strong {
+    display: block;
+    position: absolute;
+    left: 194px;
+    top: 23px;
+}
+.header h1 strong img { width: 125px; }
+.header .nav { float: right; }
+.header .nav ul { border-left: 1px solid #c6c6c6; }
+.header .nav li {
+    float: left;
+    width: 103px;
+    text-align: center;
+    border-right: 1px solid #c6c6c6;
+}
+.header .nav li a {
+    display: block;
+    padding: 19px 10px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #444;
+}
