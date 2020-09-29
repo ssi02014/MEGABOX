@@ -11,3 +11,9 @@
   <li>헤더 영역 (Logo, nav) 구현</li>
  </ol>
 <br>
+
+<h3>/* 2020-09-29 */</h3>
+ <ol>
+  <li>banner_menu 구현</li>
+ </ol>
+<br>
