@@ -83,6 +83,7 @@
     top: 20px;
     width: 100%;
     height: 100px;
+    z-index: 10;
 }
 .banner_menu a { 
     color: #fff;
@@ -150,12 +151,53 @@
 }
 /* //banner */
 
-
+/* 배너 슬라이드 */
+.slider{ width: 100%; height: 600px;}
+.slider .ss1{
+    background: url(../img/swiper01.jpg) no-repeat center;
+    background-size: cover;
+}
+.slider .ss2{
+    background: url(../img/swiper01.jpg) no-repeat center;
+    background-size: cover;
+}
+.slider .ss3{
+    background: url(../img/swiper01.jpg) no-repeat center;
+    background-size: cover;
+}
+.slider .swiper-slide h2 { 
+    position: relative;
+    font-size: 62px;
+    color: #fff;
+    margin-top: 200px;
+    line-height: 65px;
+    display: inline-block;
+}
+.slider .swiper-slide h2::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255,255,255,0.3);
+    left: 0;
+    bottom: -35px;
+}
+.slider .swiper-slide h2 em{
+    display: block;
+    font-size: 50px;
+    font-weight: 100;
+}
+.slider .swiper-slide p {
+    font-size: 27px;
+    color: #fff;
+    padding-top: 55px;
+}
 
 
 
 
 /* @media 쿼리(반응형) */
+/* 데스크탑(1) */
 @media(max-width:1290px){
     .container{ width: 100%; }
 
@@ -164,7 +206,11 @@
     .header .nav ul li a { padding: 17px 10px; font-size: 15px;}
     .header h1 em { padding: 11px 8px 5px 0; }
     .header h1 strong { top: 19px;}
+
+    /* slider */
+    .swiper-button-prev, .swiper-button-next{ display: none;}
 }
+/* 데스크탑(2) */
 @media(max-width:1024px){
     #mNav { display: block;}
     .row { padding : 0 24px;}
@@ -176,16 +222,72 @@
     /* nav */
     .nav { display: none;}
 
+    /* banner_menu */
+    .banner_menu .bm_left ul { display: none;}
+    .banner_menu .bm_right ul:first-child { display: none;}
 }
+/* 타블렛(1) */
 @media(max-width:960px){
-    
+    /* slider */
+    .slider { height: 500px;}
+    .slider .swiper-slide h2 {
+        margin-top: 160px;
+        font-size: 37px;
+        line-height: 45px;
+    }
+    .slider .swiper-slide h2::after { bottom : -20px}
+    .slider .swiper-slide h2 em{ font-size: 34px; }
+    .slider .swiper-slide p {
+        font-size: 16px;
+        padding-top: 35px;
+    }
 }
+/* 타블렛(2) */
 @media(max-width:768px){
     .row { padding : 0 16px;}
 
     /* header */
     .header h1 { text-align: left;} 
     .header h1 strong { display: none;}
+}
+/* 모바일(1) */
+@media(max-width:600px){
+    /* banner_menu */
+    .banner_menu {
+        top: 16px;
+    }
+    .banner_menu .bm_right li.white a {
+        font-size: 14px;
+        padding: 3px 5px 5px 5px;
+        color: #fff;
+        background-color: rgba(0,0,0,0.6);
+        border: 1px solid #fff;
+    }
+    .banner_menu .bm_right li.purple a {
+        font-size: 14px;
+        padding: 3px 5px 5px 5px;
+        color: #fff;
+        background-color: rgba(0,0,0,0.6);
+        border: 1px solid #fff;
+    }
+
+    /* slider */
+    .slider { height: 400px;}
+    .slider .swiper-slide h2 {
+        margin-top: 140px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .slider .swiper-slide h2::after { bottom : -5px}
+    .slider .swiper-slide h2 em{ font-size: 20px; }
+    .slider .swiper-slide p {
+        font-size: 14px;
+        padding-top: 35px;
+    }
+    .swiper-pagination-bullet {
+        width: 13px !important;
+        height: 13px !important;
+    }
 }
 @media(max-width:480px){
 

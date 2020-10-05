@@ -12,6 +12,7 @@
     <!-- css -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.css">
     <link rel="stylesheet" href="css/font-awesome.css">
 
     <!-- 파비콘 -->
@@ -22,7 +23,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="192x192" href="icons/favicon_192.png" />
 
     <!-- 웹폰트 -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400&display=swap" rel="stylesheet">
 
     <!-- HTLM5shiv ie6~8 -->
     <!--[if lt IE 9]> 
@@ -81,7 +82,7 @@
                <!-- banner_menu_left -->
                <div class="bm_left">
                   <ul>
-                     <li class="total"><a href="#">전체 메뉴</a></li>
+                     <li class="total"><a href="#"><i class="fa fa-bars" aria-hidden="true"></i> 전체 메뉴</a></li>
                      <li class="line"><a href="#">필름 소사이어티</a></li>
                      <li><a href="#">클래식 소사이어티</a></li>
                   </ul>
@@ -105,7 +106,41 @@
 
       <!-- banner_slider -->
       <div class="slider">
-         <img src="img/main_slider01.jpg" alt="베스와 베라">
+         <div class="swiper-container">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide ss1">
+                  <div class="container">
+                     <div class="row">
+                        <h2> 캡틴 마블 <em>Captain Marvel</em></h2>
+                        <p>새로운 히어로, 어벤져스의 희망</p>
+                     </div>
+                  </div>
+               </div>
+               
+               <div class="swiper-slide ss2">
+                  <div class="container">
+                     <div class="row">
+                        <h2> 캡틴 마블 <em>Captain Marvel</em></h2>
+                        <p>새로운 히어로, 어벤져스의 희망</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide ss3">
+                  <div class="container">
+                     <div class="row">
+                        <h2> 캡틴 마블 <em>Captain Marvel</em></h2>
+                        <p>새로운 히어로, 어벤져스의 희망</p>
+                     </div>
+                  </div>
+               </div> 
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
       </div>
       <!-- //banner_slider -->
    </section>
@@ -118,5 +153,22 @@
     <script src="js/html5shiv.min.js"></script>
     <script src="js/modernizr-custom.js"></script>
     <script src="js/ie-checker.js"></script> <!--explore check-->
+    <script src="js/swiper.min.js"></script>
+
+    <script>
+       var mySwiper = new Swiper('.swiper-container', {
+            navigation: {
+               nextEl: '.swiper-button-next',
+               prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+               el: '.swiper-pagination',
+               type: 'bullets',
+            },
+            autoplay: {
+               delay: 3000,
+            },
+         });
+    </script>
 </body>
 </html>
