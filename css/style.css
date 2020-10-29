@@ -253,10 +253,13 @@
     line-height: 50px;
     background-color: #38116a;
     text-align: center;
+    font-size: 22px;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.5);
 }
 .movie_chart > div > div .poster .rank strong {
     color: #fff;
     font-size: 18px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
 .movie_chart > div > div .poster .mx{
     position: absolute;
