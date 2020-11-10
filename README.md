@@ -64,4 +64,6 @@
  <ol>
   <li>Event 영역 구현(+반응형)</li>
  </ol>
+ 
+ ![1](https://user-images.githubusercontent.com/64779472/98711624-8e22aa80-23c8-11eb-8b95-a406dd94f738.PNG)
 <br>
