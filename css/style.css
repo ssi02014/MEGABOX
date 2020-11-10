@@ -5,6 +5,7 @@
 #mNav{ display: none; position: absolute; top: 10px; right: 14px;}
 #header{ width: 100%; border-bottom: 1px solid #c6c6c6; background-color: #fff;}
 #banner{ position: relative; overflow: hidden; }
+#event {}
 
 /* 가운데 영역 */
 .container {position: relative; width: 1280px; margin: 0 auto; background-color: rgba(0,0,0,0);}
@@ -194,12 +195,8 @@
 }
 
 /* movie */
-.movie {
-    padding: 100px 0;
-}
-.movie_title { 
-    margin-bottom: 60px;
-}
+.movie { padding: 100px 0; }
+.movie_title { margin-bottom: 60px; }
 .movie_title ul{
     overflow: hidden;
     width: 848px;
@@ -223,23 +220,15 @@
     color: #222;
     font-weight: 700;
 }
-.movie_chart {
-    overflow: hidden;
-}
+.movie_chart { overflow: hidden; }
 .movie_chart > div > div > div {
     float: left;
     width: 292px;
     margin-right: 18px;
 }
-.movie_chart > div > div > div:last-child {
-    margin-right: 0;
-}
-.movie_chart > div > div > div .poster{
-    position: relative;
-}
-.movie_chart > div > div > div .poster img {
-    display: block;
-}
+.movie_chart > div > div > div:last-child { margin-right: 0; }
+.movie_chart > div > div > div .poster{ position: relative; }
+.movie_chart > div > div > div .poster img { display: block; }
 .movie_chart > div > div > div .poster .rank{
     position: absolute;
     top: 17px;
@@ -267,12 +256,8 @@
     height: 25px;
     display: block;
 }
-.movie_chart > div> div > div .poster .mx .m {
-    background-position: 0 -75px;
-}
-.movie_chart > div > div > div .poster .mx .b {
-    background-position: 0 -100px;
-}
+.movie_chart > div> div > div .poster .mx .m { background-position: 0 -75px; }
+.movie_chart > div > div > div .poster .mx .b { background-position: 0 -100px; }
 .movie_chart > div > div > div .infor {
     background-color: #fff;
     padding: 17px;
@@ -294,22 +279,11 @@
     vertical-align: -2px;
 }
 /* 나이별 이용 아이콘 */
-.movie_chart >div > div > div .infor h3 span.all {
-    background-position: -87px -125px;
-}
-.movie_chart >div > div > div .infor h3 span.a12 {
-    background-position: -58px -125px;
-}
-.movie_chart >div > div > div .infor h3 span.a15 {
-    background-position: 0px -125px;
-}
-.movie_chart >div > div > div .infor h3 span.a19 {
-    background-position: -29px -125px;
-}
-.movie_chart >div > div > div .infor .infor_btn{
-    overflow: hidden;
-    
-}
+.movie_chart >div > div > div .infor h3 span.all { background-position: -87px -125px; }
+.movie_chart >div > div > div .infor h3 span.a12 { background-position: -58px -125px; }
+.movie_chart >div > div > div .infor h3 span.a15 { background-position: 0px -125px; }
+.movie_chart >div > div > div .infor h3 span.a19 { background-position: -29px -125px; }
+.movie_chart >div > div > div .infor .infor_btn{ overflow: hidden; }
 .movie_chart >div > div > div .infor .infor_btn a {
     float: left;
     background-color: #f2f2f2;
@@ -321,10 +295,39 @@
     margin-right: 2%;
     
 }
-.movie_chart >div > div > div .infor .infor_btn a:last-child{
-    margin-right: 0;
-}
+.movie_chart >div > div > div .infor .infor_btn a:last-child{ margin-right: 0; }
 /* //movie */
+
+/* event */
+.event{
+    overflow: hidden;
+    padding: 100px 0;
+}
+.event img{ display: block; }
+.event h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.event .event_left{
+    overflow: hidden;
+    float: left;
+    width: 66%;
+    margin-right: 2%;
+}
+.event .event_left .event_box1{
+    float: left;
+    width: 50%;
+}
+.event .event_left .event_box2{
+    float: left;
+    width: 50%;
+}
+.event .event_right{
+    float: left;
+    width: 32%;
+}
+/* //event */
 
 
 /* @media 쿼리(반응형) */
@@ -391,9 +394,10 @@
     .header h1 strong { display: none;}
 
     /* movie */
+    #movie { background: none; }
     #movie .row { 
         background-color: #fff; 
-        margin: 24px; 
+        margin: 24px 24px 0 24px; 
         padding: 24px;
     }
     #movie .ir_su { 
@@ -448,6 +452,23 @@
         padding: 0;
         margin-right: 35px;
     }
+    /* event */
+    #event .row{
+        padding: 24px;
+    }
+    .event{
+        padding: 24px;
+        background-color: #fff;
+    }
+    .event h2{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .event .event_left {
+        width: 100%;
+        margin-right: 0;
+    }
+    .event .event_right { display: none; }
 }
 
 /* 모바일(1) */
@@ -561,6 +582,11 @@
         border: 1px solid #ddd;
     }
     .movie_chart > div > div > div .infor .infor_btn a:last-child{ display: none;}
+
+    /* event */
+    #event .row{ padding: 0 8px; } 
+    .event { padding: 16px;}
+    .event h2{ font-size: 18px; margin-bottom: 10px;}
 }
 @media(max-width:480px){
 
