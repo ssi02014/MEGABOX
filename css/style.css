@@ -6,6 +6,11 @@
 #header{ width: 100%; border-bottom: 1px solid #c6c6c6; background-color: #fff;}
 #banner{ position: relative; overflow: hidden; }
 #event {}
+#opening { 
+    background: url(../img/bg01.jpg) no-repeat center top; 
+    background-size: cover;
+    margin: 17px 0;
+}
 
 /* 가운데 영역 */
 .container {position: relative; width: 1280px; margin: 0 auto; background-color: rgba(0,0,0,0);}
@@ -301,7 +306,7 @@
 /* event */
 .event{
     overflow: hidden;
-    padding: 100px 0;
+    padding: 0 0 100px 0;
 }
 .event img{ display: block; }
 .event h2{
@@ -329,6 +334,66 @@
 }
 /* //event */
 
+/* opening */
+.opening{
+    padding: 100px;
+    text-align: center;
+    color: #bb9b51;
+}
+.opening h2{ margin-bottom: 15px; }
+.opening h2 .grand{
+    background-position: 0 -175px;
+    display: inline-block;
+    width: 330px;
+    height: 50px;
+}
+.opening .date {
+    background-position: 0 -225px;
+    display: inline-block;
+    width: 260px;
+    height: 45px;
+}
+.opening .desc {
+    font-size: 35px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    background: url(../img/bar.png) no-repeat bottom center;
+    background-size: 100%;
+}
+.opening .open_box{
+    overflow: hidden;
+    padding: 20px 3% 0 3%;
+}
+.opening .open_box > div {
+    float: left;
+    width: 27.333%;
+    margin: 4% 3% 0 3%;
+    border: 1px solid #3e4b44;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.5);
+}
+.opening .open_box > div h3{
+    display: inline-block;
+    padding: 10px 20px;
+    color:#fff;
+    border: 1px solid #6e3abb;
+    font-size: 19px;
+    background-color: #5b2f9e;
+    margin-top: -24px;
+    font-weight: 300;
+}
+.opening .open_box > div p {
+    font-size: 23px;
+    color: #fff;
+    font-weight: 700;
+    padding: 6% 0 10% 0;
+}
+.opening .open_box > div p em {
+    display: block;
+    font-weight: bold;
+}
+.opening .open_box > div p strong { display: block; }
+/* //opening */
 
 /* @media 쿼리(반응형) */
 /* 데스크탑(1) */
@@ -382,6 +447,11 @@
         width: 25%;
         box-sizing: border-box;
     }
+
+    /* opening */
+    .opening { padding: 50px 0;}
+    .opening .open_box { display: none;}
+    .opening .desc { font-size: 25px; background: none;}
 }
 
 /* 타블렛(2) */
@@ -469,6 +539,22 @@
         margin-right: 0;
     }
     .event .event_right { display: none; }
+
+    /* opening */
+    #opening { margin: 0; }
+    .opening { padding: 20px 0;}
+    .opening .date { display: none;}
+    .opening .desc { 
+        font-size: 18px; 
+        font-weight: 400;
+        padding-bottom: 0;
+    }
+    .opening h2 .grand { 
+        background-size: 300px; 
+        background-position: 0 -105px;
+        width: 197px;
+        height: 24px;
+    }
 }
 
 /* 모바일(1) */
@@ -587,6 +673,10 @@
     #event .row{ padding: 0 8px; } 
     .event { padding: 16px;}
     .event h2{ font-size: 18px; margin-bottom: 10px;}
+
+    /* opening */
+    #opening { margin: 8px 0;}
+    .opening { padding: 50px 0;}
 }
 @media(max-width:480px){
 

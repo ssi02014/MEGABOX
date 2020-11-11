@@ -11,7 +11,7 @@
   <li>헤더 영역 (Logo, nav) 구현</li>
  </ol>
 
-![1](https://user-images.githubusercontent.com/64779472/98712052-2456d080-23c9-11eb-8b29-c647fbbbd7d2.PNG)
+ ![1](https://user-images.githubusercontent.com/6477947298577202-f1480a80-22fe-11eb-9df3-104bd50e6c80.PNG)
 <br>
 
 <h3>/* 2020-09-29 */</h3>
@@ -62,8 +62,22 @@
 
 <h3>/* 2020-11-10 */</h3>
  <ol>
-  <li>Event 영역 구현(+반응형)</li>
+  <li>Event 영역 구현</li>
+  <li>Event 영역 반응형 구현</li>
  </ol>
- 
- ![6](https://user-images.githubusercontent.com/64779472/98711897-f3769b80-23c8-11eb-8462-975e0c28f998.PNG)
+
+![6](https://user-images.githubusercontent.com/64779472/98711897-f3769b80-23c8-11eb-8462-975e0c28f998.PNG)
+<br>
+
+<h3>/* 2020-11-11 */</h3>
+ <ol>
+  <li>Opening 영역 구현</li>
+  <li>Opening 영역 반응형 구현</li>
+ </ol>
+
+![7](https://user-images.githubusercontent.com/64779472/98812024-1ce50500-2465-11eb-8276-89cff4f61ec4.PNG)
+
+<p>opening 영역 반응형</p>
+
+![8](https://user-images.githubusercontent.com/64779472/98812029-1eaec880-2465-11eb-9647-7951d6670ad7.PNG)
 <br>
