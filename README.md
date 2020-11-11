@@ -11,7 +11,7 @@
   <li>헤더 영역 (Logo, nav) 구현</li>
  </ol>
 
- ![1](https://user-images.githubusercontent.com/6477947298577202-f1480a80-22fe-11eb-9df3-104bd50e6c80.PNG)
+ ![1](https://user-images.githubusercontent.com/64779472/98812256-81a05f80-2465-11eb-968b-24d3c89168f4.PNG)
 <br>
 
 <h3>/* 2020-09-29 */</h3>
