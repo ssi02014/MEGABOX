@@ -1,4 +1,4 @@
-# MEGABOX
+# MEGABOX(2019)
 
 <h3>/* 2020-09-25 */</h3>
  <ol>
@@ -11,7 +11,7 @@
   <li>헤더 영역 (Logo, nav) 구현</li>
  </ol>
 
- ![1](https://user-images.githubusercontent.com/64779472/98812256-81a05f80-2465-11eb-968b-24d3c89168f4.PNG)
+![1](https://user-images.githubusercontent.com/64779472/98812256-81a05f80-2465-11eb-968b-24d3c89168f4.PNG)
 <br>
 
 <h3>/* 2020-09-29 */</h3>
@@ -81,3 +81,11 @@
 
 ![8](https://user-images.githubusercontent.com/64779472/98812029-1eaec880-2465-11eb-9647-7951d6670ad7.PNG)
 <br>
+
+<h3>/* 2020-11-17 */</h3>
+ <ol>
+  <li>New Movie(1) new_left 부분 구현</li>
+  <li>svg를 통한 동영상 시작 아이콘 첨부</li>
+ </ol>
+
+ <br>
