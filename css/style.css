@@ -429,6 +429,76 @@
     width: 400px;
     height: 500px;
     background: #f0f0f0;
+    padding: 34px;
+    box-sizing: border-box;
+}
+.new .new_right .title{
+    font-size: 28px;
+    color: #000;
+}
+.new .new_right .release{
+    font-size: 12px;
+    color: #333;
+} 
+.new .new_right .star{ padding: 13px 0;} 
+.new .new_right .star strong{ font-size: 15px; padding-left: 5px;}
+.new .new_right .star span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: -3px;
+    }  
+.new .new_right .star .star1{ background-position: -393px 0; }
+.new .new_right .star .star2{ background-position: -412px 0; }
+.new .new_right .star .star0{ background-position: -374px 0; }
+.new .new_right .summary{ font-size: 14px; }
+.new .new_right .summary .genre{ padding-bottom: 3px; }
+.new .new_right .summary .age{ padding-bottom: 3px; }
+.new .new_right .summary .desc{
+    overflow: hidden;
+    height: 108px;
+}
+.new .new_right .select{
+    overflow: hidden;
+}
+.new .new_right .select .s1{
+    float: left;
+    width: 49%;
+    margin-right: 2%;
+    color: #fff
+}
+.new .new_right .select .s2{
+    float: left;
+    width: 49%;
+    color: #fff
+}
+.new .new_right .select .s3{
+    float: left;
+    width: 100%;
+    margin-top: 2%;
+}
+.new .new_right .btn{
+    overflow: hidden;
+    margin-top: 2%;
+}
+
+.new .new_right .btn a {
+    float: left;
+    width: 49%;
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 30px 12px 30px
+} 
+.new .new_right .btn a.white {
+    background-color: #fff;
+    margin-right: 2%;
+    color: #3a0e6a;
+    border: 1px solid #3a0e6a;
+}
+.new .new_right .btn a.purple {
+    background-color: #3a0e6a;
+    color : #fff;
+    border: 1px solid #6240c4;
 }
 /* //New Movie */
 
@@ -492,6 +562,18 @@
     .opening { padding: 50px 0;}
     .opening .open_box { display: none;}
     .opening .desc { font-size: 25px; background: none;}
+
+    /* New Movie */
+    .new .new_left {
+        margin-right: 0;
+        height: 400px;
+    }
+    .new .new_right{
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: auto;
+    }
 }
 
 /* 타블렛(2) */
@@ -595,6 +677,22 @@
         width: 197px;
         height: 24px;
     }
+
+    /* New Movie */
+    #new .row{ padding: 0 24px;}
+    .new { 
+        background-color: #fff;
+        padding: 24px;
+        margin-top: 24px;
+    }
+    .new h2 {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+    .new .new_right { padding: 24px }
+    
 }
 
 /* 모바일(1) */
@@ -717,6 +815,17 @@
     /* opening */
     #opening { margin: 8px 0;}
     .opening { padding: 50px 0;}
+
+    /* New Movie */
+    #new .row { padding : 0 8px; }
+    .new { padding: 16px; margin-top: 8px;}
+    .new h2 { font-size: 18; }
+    .new .new_left { height: 300px; }
+    .new .new_right { padding: 17px; }
+    .new .new_left .title { font-size: 22px; }
+    .new .new_left .star { padding: 9px 0; }
+    .new .new_left .select .s1 { width: 100%; margin-right: 0; margin-bottom: 2%;}
+    .new .new_left .select .s2 { width: 100%;}
 }
 @media(max-width:480px){
 

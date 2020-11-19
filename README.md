@@ -77,7 +77,7 @@
 
 ![7](https://user-images.githubusercontent.com/64779472/98812024-1ce50500-2465-11eb-8276-89cff4f61ec4.PNG)
 
-<p>opening 영역 반응형</p>
+<strong>opening 영역 반응형</strong>
 
 ![8](https://user-images.githubusercontent.com/64779472/98812029-1eaec880-2465-11eb-9647-7951d6670ad7.PNG)
 <br>
@@ -89,3 +89,16 @@
  </ol>
 
  <br>
+
+ <h3>/* 2020-11-19 */</h3>
+ <ol>
+  <li>New Movie(2) new_right 영역 구현</li>
+  <li>New Moive 영역 반응형 구현</li>
+ </ol>
+
+ ![9](https://user-images.githubusercontent.com/64779472/99635332-2c77d580-2a85-11eb-80e0-2c0624ddb127.PNG)
+
+ <strong>New Movie 영역 반응형</strong>
+
+![10](https://user-images.githubusercontent.com/64779472/99635337-2eda2f80-2a85-11eb-9e7b-c68deef01b4e.PNG)
+<br>
