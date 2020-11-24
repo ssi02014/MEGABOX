@@ -102,3 +102,13 @@
 
 ![10](https://user-images.githubusercontent.com/64779472/99635337-2eda2f80-2a85-11eb-9e7b-c68deef01b4e.PNG)
 <br>
+
+<h3>/* 2020-11-24 */</h3>
+ <ol>
+  <li>help Section 공지사항 구현</li>
+  <li>help Section 메가박스 할인카드 구현</li>
+  <li>help Section 고객센터/SVG 구현</li>
+ </ol>
+
+![11](https://user-images.githubusercontent.com/64779472/100113672-ec18bd00-2eb3-11eb-9286-07cf8d742e31.PNG)
+ <br>
