@@ -1,4 +1,4 @@
-# MEGABOX(2019)
+# MEGABOX(2019ver)
 
 <h3>/* 2020-09-25 */</h3>
  <ol>
@@ -112,3 +112,14 @@
 
 ![11](https://user-images.githubusercontent.com/64779472/100113672-ec18bd00-2eb3-11eb-9286-07cf8d742e31.PNG)
  <br>
+
+<h3>/* 2020-12-01 */</h3>
+ <ol>
+  <li>help Section 반응형 구현
+ </ol>
+
+<strong>help Section 영역 반응형</strong>
+
+![12](https://user-images.githubusercontent.com/64779472/100648447-4a4a1200-3384-11eb-8ebb-119bf470f1d4.PNG)
+
+![13](https://user-images.githubusercontent.com/64779472/100648442-4918e500-3384-11eb-9231-fade2e810851.PNG)
