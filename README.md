@@ -1,5 +1,9 @@
 # MEGABOX(2019ver)
 
+<h2>Github Page: https://ssi02014.github.io/MEGABOX/</h2>
+<h3>사용한 Jquery 라이브러리: Swiper.js</h3>
+<h3>사용 스텍: HTML, CSS , JavaScript, Jquery</h3>
+
 <h3>/* 2020-09-25 */</h3>
  <ol>
   <li>시작, 기본 셋팅</li>
