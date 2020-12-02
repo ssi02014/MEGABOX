@@ -15,6 +15,8 @@
   <li>헤더 영역 (Logo, nav) 구현</li>
  </ol>
 
+ <strong>헤더 영역</strong>
+
 ![1](https://user-images.githubusercontent.com/64779472/98812256-81a05f80-2465-11eb-968b-24d3c89168f4.PNG)
 <br>
 
@@ -22,6 +24,8 @@
  <ol>
   <li>banner_menu 구현</li>
  </ol>
+
+ <strong>banner_menu 영역</strong>
 
  ![2](https://user-images.githubusercontent.com/64779472/98577204-f2793780-22fe-11eb-8417-a3d93e6454f0.PNG)
 <br>
@@ -32,6 +36,8 @@
   <li>배너 영역 반응형 구현</li>
  </ol>
 
+ <strong>배너 영역</strong>
+
  ![4](https://user-images.githubusercontent.com/64779472/98577212-f7d68200-22fe-11eb-8e97-56dc28058850.PNG)
 <br>
 
@@ -40,6 +46,8 @@
   <li>Movie 차트 구현</li>
   <li>icon 이미지 최적화 작업</li>
  </ol>
+
+ <strong>Movie 차트 영역</strong>
 
  ![3](https://user-images.githubusercontent.com/64779472/98577207-f442fb00-22fe-11eb-8df7-6f8a1f619759.PNG)
 <br>
@@ -61,6 +69,8 @@
   <li>Movie 차트 이미지 슬라이드 반응형 구현</li>
  </ol>
 
+ <strong>Movie 차트 영역 이미지 슬라이드 반응형</strong>
+
  ![5](https://user-images.githubusercontent.com/64779472/98577215-f907af00-22fe-11eb-8fb7-0ef590ccb127.PNG)
 <br>
 
@@ -70,6 +80,8 @@
   <li>Event 영역 반응형 구현</li>
  </ol>
 
+ <strong>Event 영역</strong>
+
 ![6](https://user-images.githubusercontent.com/64779472/98711897-f3769b80-23c8-11eb-8462-975e0c28f998.PNG)
 <br>
 
@@ -78,6 +90,8 @@
   <li>Opening 영역 구현</li>
   <li>Opening 영역 반응형 구현</li>
  </ol>
+
+ <strong>Opening 영역</strong>
 
 ![7](https://user-images.githubusercontent.com/64779472/98812024-1ce50500-2465-11eb-8276-89cff4f61ec4.PNG)
 
@@ -113,6 +127,8 @@
   <li>help Section 메가박스 할인카드 구현</li>
   <li>help Section 고객센터/SVG 구현</li>
  </ol>
+
+<strong>help 영역</strong>
 
 ![11](https://user-images.githubusercontent.com/64779472/100113672-ec18bd00-2eb3-11eb-9286-07cf8d742e31.PNG)
  <br>
