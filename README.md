@@ -119,7 +119,7 @@
 
 <h3>/* 2020-12-01 */</h3>
  <ol>
-  <li>help Section 반응형 구현
+  <li>help Section 반응형 구현</li>
  </ol>
 
 <strong>help Section 영역 반응형</strong>
@@ -127,3 +127,19 @@
 ![12](https://user-images.githubusercontent.com/64779472/100648447-4a4a1200-3384-11eb-8ebb-119bf470f1d4.PNG)
 
 ![13](https://user-images.githubusercontent.com/64779472/100648442-4918e500-3384-11eb-9231-fade2e810851.PNG)
+<br>
+
+<h3>/* 2020-12-02 */</h3>
+ <ol>
+  <li>footer 구현</li>
+  <li>footer 영역 반응형 구현</li>
+ </ol>
+
+ <strong>footer 영역</strong>
+
+![15](https://user-images.githubusercontent.com/64779472/100915814-3800dd00-3518-11eb-8ab2-883d7b666b75.PNG)
+
+ <strong>footer 영역(반응형)</strong>
+
+![16](https://user-images.githubusercontent.com/64779472/100915818-38997380-3518-11eb-84ad-63557d872a7c.PNG)
+<br>
