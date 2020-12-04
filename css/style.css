@@ -1,11 +1,27 @@
 @charset "utf-8";
 
+/* Skip Menu */
+#skip { position: relative;}
+#skip a { 
+    position: absolute;
+    left: 0; 
+    top: -40px; 
+    width: 140px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    background: #333;
+    line-height: 30px;
+}
+#skip a:active,
+#skip a:focus{
+    top: 0;
+}
 
 /* LayOut */
 #mNav{ display: none; position: absolute; top: 10px; right: 14px;}
 #header{ width: 100%; border-bottom: 1px solid #c6c6c6; background-color: #fff;}
 #banner{ position: relative; overflow: hidden; }
-#event {}
 #opening { 
     background: url(../img/bg01.jpg) no-repeat center top; 
     background-size: cover;
@@ -165,11 +181,15 @@
     background-size: cover;
 }
 .slider .ss2{
-    background: url(../img/swiper01.jpg) no-repeat center;
+    background: url(../img/main_slider02_2000.jpg) no-repeat center;
     background-size: cover;
 }
 .slider .ss3{
     background: url(../img/swiper01.jpg) no-repeat center;
+    background-size: cover;
+}
+.slider .ss4{
+    background: url(../img/main_slider02_2000.jpg) no-repeat center;
     background-size: cover;
 }
 .slider .swiper-slide h2 { 
@@ -575,6 +595,11 @@
 .notice ul li ul li dd {
     color: #777;
     padding-top: 3px;
+}
+.notice ul li ul li a { 
+    border: 0; 
+    padding: 0;
+    width: 100%;
     /* 한줄효과 */
     overflow: hidden;
     text-overflow: ellipsis;
@@ -751,6 +776,7 @@
     .help article.help_box1 { width: 49%; margin-right: 2%;}
     .help article.help_box2 { width: 49%; margin-right: 0%;}
     .help article.help_box3 { width: 100%; margin-right: 2%;}
+    .help .help_box3 h3 { margin-top: 20px;}
     .service li { width: 25% ; height: auto;}
     .service li:nth-child(1) { border-bottom: 1px solid #d7d7d7;}
     .service li:nth-child(2) { border-bottom: 1px solid #d7d7d7; border-right: 0;}

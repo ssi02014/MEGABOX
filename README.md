@@ -1,7 +1,7 @@
-# MEGABOX(2019ver)
+# MEGABOX(2019ver) - Main_Page
 
 <h2>Github Page: https://ssi02014.github.io/MEGABOX/</h2>
-<h3>사용한 Jquery 라이브러리: Swiper.js</h3>
+<h3>Jquery 라이브러리: Swiper.js</h3>
 <h3>사용 스텍: HTML, CSS , JavaScript, Jquery</h3>
 
 <h3>/* 2020-09-25 */</h3>
@@ -158,4 +158,12 @@
  <strong>footer 영역(반응형)</strong>
 
 ![16](https://user-images.githubusercontent.com/64779472/100915818-38997380-3518-11eb-84ad-63557d872a7c.PNG)
+<br>
+
+<h3>/* 2020-12-04 */</h3>
+ <ol>
+  <li>Skip Menu, TabMenu 작업</li>
+  <li>마무리 작업</li>
+ </ol>
+
 <br>
